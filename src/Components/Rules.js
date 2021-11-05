@@ -26,12 +26,12 @@ const Rules = (props) => {
           <p>
             GOAL:
             <br />
-            <br /> have the other player guess your choosen word correctly
-            without using any katakana/foreign loan words (like
-            チーズ　or　コーヒー)
+            <br /> Give hints to the other player about your word without using
+            ANY katakana/foreign loan words (like チーズ　or　コーヒー).
             <br />
             <br />
-            HOW TO PLAY:
+            <br />
+            <h3>HOW TO PLAY: </h3>
             <br />
             <br /> 1st: open this site on your phone and your friends phone.
             <br />
@@ -39,7 +39,9 @@ const Rules = (props) => {
             the other player without using any foreign loan words.
             <br />
             <br />
-            3rd: if the second player guess the word correctly switch roles.
+            3rd: when the other player guesses the word correctly, switch roles.
+            <br />
+            <br />
           </p>
           <button onClick={changeLanguage}> 日本語 </button>
         </div>
@@ -57,10 +59,10 @@ const Rules = (props) => {
             『カタカナ語を日本語だけで説明する』というカタカナ禁止カードゲームです。
             <br />
             <br />
-            「チョコレート」や「キャンプ」といったカタカナ語のお題を説明するのにカタカナを使用することができません。この制限の中でお題を表現しようとすると、面白い発言や意味不明な言葉が飛び出したりして、その度に大盛り上がりできます！
+            「チョコレート」や「キャンプ」といったカタカナ語のお題を説明するのにカタカナを使用することができません。
             <br />
             <br />
-            やり方：
+            <h3>やり方</h3>
             <br />
             <br />
             1日：お使いの携帯電話とお友達の携帯電話でこのサイトを開きます。
@@ -70,6 +72,8 @@ const Rules = (props) => {
             <br />
             <br />
             3番目：2番目のプレーヤーが単語を正しく推測した場合、役割を切り替えます。
+            <br />
+            <br />
           </p>
           <button onClick={changeLanguage}> English </button>
         </div>
