@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./Word.css";
 
 const Word = (props) => {
   const [currentWord, setCurrentWord] = useState(props.words[0]);
