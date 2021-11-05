@@ -43,7 +43,10 @@ const Rules = (props) => {
             <br />
             <br />
           </p>
-          <button onClick={changeLanguage}> 日本語 </button>
+          <button onClick={changeLanguage} className="language-button">
+            {" "}
+            日本語{" "}
+          </button>
         </div>
       </div>
     );
@@ -75,7 +78,10 @@ const Rules = (props) => {
             <br />
             <br />
           </p>
-          <button onClick={changeLanguage}> English </button>
+          <button onClick={changeLanguage} className="language-button">
+            {" "}
+            English{" "}
+          </button>
         </div>
       </div>
     );
