@@ -11,8 +11,12 @@ const Word = (props) => {
 
   return (
     <div className="word-div">
-      <h1>{currentWord}</h1>
-      <button onClick={currentWordHandler}>新しい単語</button>
+      <div className="word-card">
+        <h1>{currentWord}</h1>
+      </div>
+      <button onClick={currentWordHandler} className="word-button">
+        新しい単語
+      </button>
     </div>
   );
 };

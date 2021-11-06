@@ -1,6 +1,21 @@
 .word-div {
   height: 200px;
-  width: 50%;
+  width: fit-content;
+  max-width: 100%;
   padding: auto;
   margin: auto;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.word-card {
+  background-image: url(../background-crumpled-paper-sheet_1194-7545.jpg);
+  color: rgb(43, 41, 41);
+  border-radius: 5%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 1.5rem;
 }

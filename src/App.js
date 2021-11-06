@@ -167,8 +167,8 @@ function App() {
   return (
     <div className="App">
       <Title />
-      <Rules />
       <Word words={Words} />
+      <Rules />
     </div>
   );
 }

@@ -20,7 +20,9 @@ const Rules = (props) => {
   if (language === "English" && rulesVisiblity === true) {
     return (
       <div>
-        <button onClick={setRulesVisiblityHandler}>Hide Rules </button>
+        <button onClick={setRulesVisiblityHandler} className="rules-button">
+          Hide Rules{" "}
+        </button>
         <div className="rules-div">
           <h3>Rules</h3>
           <p>
@@ -55,7 +57,9 @@ const Rules = (props) => {
   if (language === "Japanese" && rulesVisiblity === true) {
     return (
       <div>
-        <button onClick={setRulesVisiblityHandler}>ルールを課かす </button>
+        <button onClick={setRulesVisiblityHandler} className="rules-button">
+          ルールを課かす{" "}
+        </button>
         <div className="rules-div">
           <h3>ルール</h3>
           <p>
@@ -86,7 +90,12 @@ const Rules = (props) => {
       </div>
     );
   } else {
-    return <button onClick={setRulesVisiblityHandler}> Rules・ルール </button>;
+    return (
+      <button onClick={setRulesVisiblityHandler} className="rules-button">
+        {" "}
+        Rules・ルール{" "}
+      </button>
+    );
   }
 };
 

@@ -3,8 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin: auto;
   background-image: url(/src/background-crumpled-paper-sheet_1194-7545.jpg);
   background-size: cover;
   color: black;
@@ -12,6 +11,8 @@
   padding: 20px;
   font-weight: bold;
   font-family: "Architects Daughter", cursive;
+  width: 80%;
+  height: fit-content;
 }
 
 button {
@@ -27,4 +28,8 @@ button {
 
 button:hover {
   opacity: 0.8;
+}
+
+.rules-button {
+  justify-content: left;
 }
