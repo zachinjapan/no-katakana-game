@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/bobby-jiten/static/css/main.16598ee6.chunk.css",
+    "main.css": "/bobby-jiten/static/css/main.b0117195.chunk.css",
     "main.js": "/bobby-jiten/static/js/main.11a934b3.chunk.js",
     "main.js.map": "/bobby-jiten/static/js/main.11a934b3.chunk.js.map",
     "runtime-main.js": "/bobby-jiten/static/js/runtime-main.9557ed29.js",
@@ -10,7 +10,7 @@
     "static/js/3.63e4b56d.chunk.js": "/bobby-jiten/static/js/3.63e4b56d.chunk.js",
     "static/js/3.63e4b56d.chunk.js.map": "/bobby-jiten/static/js/3.63e4b56d.chunk.js.map",
     "index.html": "/bobby-jiten/index.html",
-    "static/css/main.16598ee6.chunk.css.map": "/bobby-jiten/static/css/main.16598ee6.chunk.css.map",
+    "static/css/main.b0117195.chunk.css.map": "/bobby-jiten/static/css/main.b0117195.chunk.css.map",
     "static/js/2.213cb8c7.chunk.js.LICENSE.txt": "/bobby-jiten/static/js/2.213cb8c7.chunk.js.LICENSE.txt",
     "static/media/Word.css": "/bobby-jiten/static/media/background-crumpled-paper-sheet_1194-7545.9846881b.jpg",
     "static/media/index.css": "/bobby-jiten/static/media/istockphoto-1145602814-612x612.868209b7.jpg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.9557ed29.js",
     "static/js/2.213cb8c7.chunk.js",
-    "static/css/main.16598ee6.chunk.css",
+    "static/css/main.b0117195.chunk.css",
     "static/js/main.11a934b3.chunk.js"
   ]
 }
