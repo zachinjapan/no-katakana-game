@@ -58,7 +58,7 @@ const Rules = (props) => {
     return (
       <div>
         <button onClick={setRulesVisiblityHandler} className="rules-button">
-          ルールを課かす{" "}
+          ルールを隠れる{" "}
         </button>
         <div className="rules-div">
           <h3>ルール</h3>
