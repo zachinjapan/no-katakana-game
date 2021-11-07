@@ -19,7 +19,7 @@ const Rules = (props) => {
 
   if (language === "English" && rulesVisiblity === true) {
     return (
-      <div>
+      <div className="rules-control-div">
         <button onClick={setRulesVisiblityHandler} className="rules-button">
           Hide Rules{" "}
         </button>

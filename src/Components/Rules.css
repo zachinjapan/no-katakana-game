@@ -1,3 +1,7 @@
+.rules-control-div {
+  margin: 20px;
+}
+
 .rules-div {
   display: flex;
   flex-direction: column;
