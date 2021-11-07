@@ -19,3 +19,9 @@
   font-weight: bolder;
   font-size: 1.5rem;
 }
+
+@media screen and (max-width: 600px) {
+  .word-div {
+    width: 100%;
+  }
+}

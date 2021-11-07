@@ -9,11 +9,12 @@
 }
 
 .title {
-  font-family: "Sigmar One", cursive;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 2rem;
   font-weight: bold;
   color: #fff;
   text-align: center;
   margin-left: 10px;
   margin-right: 10px;
+  box-shadow: 0px 0px 10px rgb(0, 0, 0);
 }
