@@ -10,13 +10,13 @@ const TimerDiv = (props) => {
 
     return (
       <div>
-        <Timer hoursMinSecs={props.hoursMinSecs} />
         <button
           className="rules-button"
           onClick={() => setTimerVisibility(false)}
         >
           Hide Timer : タイマーを隠す{" "}
         </button>
+        <Timer hoursMinSecs={props.hoursMinSecs} />
       </div>
     );
   } else {
