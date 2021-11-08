@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Timer from "./Timer";
-import "../Components/TimerDiv.css";
+import "../Components/Rules.css";
 
 const TimerDiv = (props) => {
   const [timerVisibility, setTimerVisibility] = useState(false);
@@ -11,14 +11,19 @@ const TimerDiv = (props) => {
     return (
       <div>
         <Timer hoursMinSecs={props.hoursMinSecs} />
-        <button onClick={() => setTimerVisibility(false)}>
+        <button
+          className="rules-button"
+          onClick={() => setTimerVisibility(false)}
+        >
           Hide Timer : タイマーを隠す{" "}
         </button>
       </div>
     );
   } else {
     return (
-      <button onClick={() => setTimerVisibility(true)}>Start Timer </button>
+      <button className="rules-button" onClick={() => setTimerVisibility(true)}>
+        Start Timer{" "}
+      </button>
     );
   }
 };

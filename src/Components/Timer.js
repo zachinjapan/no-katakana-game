@@ -1,4 +1,5 @@
 import React from "react";
+import "../Components/TimerDiv.css";
 
 const CountDownTimer = (props) => {
   const { hours = 0, minutes = 0, seconds = 60 } = props.hoursMinSecs;
