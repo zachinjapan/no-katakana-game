@@ -38,7 +38,7 @@ const CountDownTimer = (props) => {
       <p>{`${hrs.toString().padStart(2, "0")}:${mins
         .toString()
         .padStart(2, "0")}:${secs.toString().padStart(2, "0")}`}</p>
-      <button onClick={resetTimer}>Reset</button>
+      <button onClick={resetTimer}>リセット</button>
     </div>
   );
 };

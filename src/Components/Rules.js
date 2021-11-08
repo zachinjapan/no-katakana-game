@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../Components/Rules.css";
 
 const Rules = (props) => {
-  const [language, setLanguage] = useState("English");
+  const [language, setLanguage] = useState("Japanese");
   const [rulesVisiblity, setRulesVisiblity] = useState(false);
 
   const setRulesVisiblityHandler = () => {
