@@ -3,7 +3,7 @@ import "./App.css";
 import Title from "./Components/Title";
 import Rules from "./Components/Rules";
 import Word from "./Components/Word";
-
+import TimerDiv from "./Components/TimerDiv";
 const Words = [
   // a
   "アレルギー",
@@ -164,11 +164,13 @@ const Words = [
 ];
 
 function App() {
+  const hoursMinSecs = { hours: 0, minutes: 5, seconds: 0 };
   return (
     <div className="App">
       <Title />
       <Word words={Words} />
       <Rules />
+      <TimerDiv hoursMinSecs={hoursMinSecs} />
     </div>
   );
 }
