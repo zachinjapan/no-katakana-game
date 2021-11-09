@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# no-katakana-game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+</br>
+<p align="center">
+    <img src="https://img.shields.io/github/languages/count/zachinjapan/no-katakana-game?style=plastic" alt="Languages" />
+    <img src="https://img.shields.io/github/languages/top/zachinjapan/no-katakana-game?style=plastic&labelColor=yellow" alt="Top Language" />
+    <img src="https://img.shields.io/github/languages/code-size/zachinjapan/no-katakana-game?style=plastic" alt="Code Size" />
+    <img src="https://img.shields.io/github/repo-size/zachinjapan/no-katakana-game?style=plastic" alt="Repo Size" />   
+    <img src="https://img.shields.io/tokei/lines/github/zachinjapan/no-katakana-game?style=plastic" alt="Total Lines" />
+    <img src="https://img.shields.io/github/last-commit/zachinjapan/no-katakana-game?style=plastic" alt="Last Commit" />  
+    <img src="https://img.shields.io/github/issues/zachinjapan/no-katakana-game?style=plastic" alt="Issues" />  
+    <img src="https://img.shields.io/github/followers/zachinjapan?style=social" alt="Followers" />  
+</p>
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+ノーカタカナゲーム
 
-### `yarn start`
+No katakana game
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+</br>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Table of Contents
 
-### `yarn test`
+- [Links](#links)
+- [Technologies Used](#technologies-used)
+- [License](#license)
+- [Contributions](#contributions)
+- [Questions](#questions)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Links
 
-### `yarn build`
+- GH-Pages demo site link: (https://zachinjapan.github.io/no-katakana-game/)
+- Github Repository URL: (https://github.com/zachinjapan/no-katakana-game/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<p align="center">
+    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://img.shields.io/badge/-HTML-orange?style=for-the-badge"  alt="HMTL" /></a>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="https://img.shields.io/badge/-CSS-blue?style=for-the-badge" alt="CSS" /></a>
+    <a href="https://www.javascript.com/"><img src="https://img.shields.io/badge/-Javascript-yellow?style=for-the-badge" alt="Javascript" /></a>
+    <a href="https://www.npmjs.com/package/gh-pages"><img src="https://img.shields.io/badge/-ghpages-orange?style=for-the-badge" alt="gh-pages" /></a>
+    <a ><img src="https://img.shields.io/badge/-CSS-blue?style=for-the-badge" alt="CSS" /></a>
+</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## License
 
-### `yarn eject`
+[![MIT](https://img.shields.io/badge/license-MIT-green?style=plastic)](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Contributions
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Fork, request, or contact me.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Questions
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+[![GitHub](https://img.shields.io/badge/My%20GitHub-Click%20Me!-blueviolet?style=plastic&logo=GitHub)](https://github.com/zachinjapan)
+[![LinkedIn](https://img.shields.io/badge/My%20LinkedIn-Click%20Me!-grey?style=plastic&logo=LinkedIn&labelColor=blue)](https://www.linkedin.com/in/zach-stone-45b649211/)
 
-## Learn More
+このプロジェクトに関するご質問は、zachinjapan888@gmail.comまでお気軽にご連絡ください。
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to reach me at zachinjapan888@gmail.com with any question regarding this project!
