@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/no-katakana-game/static/css/main.8cbfc4ed.chunk.css",
-    "main.js": "/no-katakana-game/static/js/main.43cce96f.chunk.js",
-    "main.js.map": "/no-katakana-game/static/js/main.43cce96f.chunk.js.map",
+    "main.js": "/no-katakana-game/static/js/main.01ac7445.chunk.js",
+    "main.js.map": "/no-katakana-game/static/js/main.01ac7445.chunk.js.map",
     "runtime-main.js": "/no-katakana-game/static/js/runtime-main.8c54b721.js",
     "runtime-main.js.map": "/no-katakana-game/static/js/runtime-main.8c54b721.js.map",
     "static/js/2.22120f83.chunk.js": "/no-katakana-game/static/js/2.22120f83.chunk.js",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.8c54b721.js",
     "static/js/2.22120f83.chunk.js",
     "static/css/main.8cbfc4ed.chunk.css",
-    "static/js/main.43cce96f.chunk.js"
+    "static/js/main.01ac7445.chunk.js"
   ]
 }
