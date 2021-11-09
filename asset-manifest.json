@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/no-katakana-game/static/css/main.8cbfc4ed.chunk.css",
-    "main.js": "/no-katakana-game/static/js/main.01ac7445.chunk.js",
-    "main.js.map": "/no-katakana-game/static/js/main.01ac7445.chunk.js.map",
+    "main.css": "/no-katakana-game/static/css/main.271d77cc.chunk.css",
+    "main.js": "/no-katakana-game/static/js/main.4ac2ce3b.chunk.js",
+    "main.js.map": "/no-katakana-game/static/js/main.4ac2ce3b.chunk.js.map",
     "runtime-main.js": "/no-katakana-game/static/js/runtime-main.8c54b721.js",
     "runtime-main.js.map": "/no-katakana-game/static/js/runtime-main.8c54b721.js.map",
     "static/js/2.22120f83.chunk.js": "/no-katakana-game/static/js/2.22120f83.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.f3c71158.chunk.js": "/no-katakana-game/static/js/3.f3c71158.chunk.js",
     "static/js/3.f3c71158.chunk.js.map": "/no-katakana-game/static/js/3.f3c71158.chunk.js.map",
     "index.html": "/no-katakana-game/index.html",
-    "static/css/main.8cbfc4ed.chunk.css.map": "/no-katakana-game/static/css/main.8cbfc4ed.chunk.css.map",
+    "static/css/main.271d77cc.chunk.css.map": "/no-katakana-game/static/css/main.271d77cc.chunk.css.map",
     "static/js/2.22120f83.chunk.js.LICENSE.txt": "/no-katakana-game/static/js/2.22120f83.chunk.js.LICENSE.txt",
     "static/media/Word.css": "/no-katakana-game/static/media/background-crumpled-paper-sheet_1194-7545.9846881b.jpg",
     "static/media/index.css": "/no-katakana-game/static/media/istockphoto-1145602814-612x612.868209b7.jpg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.8c54b721.js",
     "static/js/2.22120f83.chunk.js",
-    "static/css/main.8cbfc4ed.chunk.css",
-    "static/js/main.01ac7445.chunk.js"
+    "static/css/main.271d77cc.chunk.css",
+    "static/js/main.4ac2ce3b.chunk.js"
   ]
 }
