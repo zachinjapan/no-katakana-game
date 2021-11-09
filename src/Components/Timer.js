@@ -36,7 +36,7 @@ const CountDownTimer = (props) => {
   return (
     <div>
       <h3>{`カウンター: ${counter} `}</h3>
-      <h3>{`残り時間: ${mins.toString().padStart(2, "0")}:${secs
+      <h3>{`タイムレフト: ${mins.toString().padStart(2, "0")}:${secs
         .toString()
         .padStart(2, "0")}`}</h3>
       <div className="button-div">
