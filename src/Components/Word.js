@@ -15,7 +15,7 @@ const Word = (props) => {
         <h1>{currentWord}</h1>
       </div>
       <button onClick={currentWordHandler} className="word-button">
-        新しい単語
+        ニューワード
       </button>
     </div>
   );
