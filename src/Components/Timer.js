@@ -7,7 +7,7 @@ const CountDownTimer = (props) => {
 
   // function to incrase count
 
-  const [counter, setCounter] = useState(1);
+  const [counter, setCounter] = useState(0);
 
   const tick = () => {
     if (mins === 0 && secs === 0) reset();
