@@ -3,8 +3,6 @@ import Timer from "./Timer";
 import "../Components/Rules.css";
 
 const TimerDiv = (props) => {
-  const [counter, setCounter] = useState(0);
-
   const [timerVisibility, setTimerVisibility] = useState(false);
 
   if (timerVisibility === true) {
@@ -16,7 +14,7 @@ const TimerDiv = (props) => {
           className="rules-button"
           onClick={() => setTimerVisibility(false)}
         >
-          タイマーを隠す{" "}
+          タイマーをハイドする{" "}
         </button>
         <Timer minSecs={props.minSecs} />
       </div>
@@ -24,7 +22,7 @@ const TimerDiv = (props) => {
   } else {
     return (
       <button className="rules-button" onClick={() => setTimerVisibility(true)}>
-        タイマーとカウントー{" "}
+        タイマーアンドカウントー{" "}
       </button>
     );
   }
