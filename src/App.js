@@ -164,13 +164,13 @@ const Words = [
 ];
 
 function App() {
-  const hoursMinSecs = { hours: 0, minutes: 5, seconds: 0 };
+  const minSecs = { minutes: 5, seconds: 0 };
   return (
     <div className="App">
       <Title />
       <Word words={Words} />
       <Rules />
-      <TimerDiv hoursMinSecs={hoursMinSecs} />
+      <TimerDiv minSecs={minSecs} />
     </div>
   );
 }

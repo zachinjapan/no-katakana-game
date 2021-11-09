@@ -1,27 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 import "../Components/TimerDiv.css";
 
 const CountDownTimer = (props) => {
-  const { hours = 0, minutes = 0, seconds = 60 } = props.hoursMinSecs;
-  const [[hrs, mins, secs], setTime] = React.useState([
-    hours,
-    minutes,
-    seconds,
-  ]);
+  const { minutes = 0, seconds = 60 } = props.minSecs;
+  const [[mins, secs], setTime] = React.useState([minutes, seconds]);
+
+  // function to incrase count
+
+  const [counter, setCounter] = useState(1);
 
   const tick = () => {
-    if (hrs === 0 && mins === 0 && secs === 0) reset();
+    if (mins === 0 && secs === 0) reset();
     else if (mins === 0 && secs === 0) {
-      setTime([hrs - 1, 59, 59]);
+      setTime([59, 59]);
     } else if (secs === 0) {
-      setTime([hrs, mins - 1, 59]);
+      setTime([mins - 1, 59]);
     } else {
-      setTime([hrs, mins, secs - 1]);
+      setTime([mins, secs - 1]);
     }
   };
 
-  const reset = () =>
-    setTime([parseInt(hours), parseInt(minutes), parseInt(seconds)]);
+  const reset = () => setTime([parseInt(minutes), parseInt(seconds)]);
 
   React.useEffect(() => {
     const timerId = setInterval(() => tick(), 1000);
@@ -31,14 +30,19 @@ const CountDownTimer = (props) => {
   //button to reset the timer
   const resetTimer = () => {
     reset();
+    setCounter(0);
   };
 
   return (
     <div>
-      <p>{`${hrs.toString().padStart(2, "0")}:${mins
+      <h3>{`カウンター: ${counter} `}</h3>
+      <h3>{`残り時間: ${mins.toString().padStart(2, "0")}:${secs
         .toString()
-        .padStart(2, "0")}:${secs.toString().padStart(2, "0")}`}</p>
-      <button onClick={resetTimer}>リセット</button>
+        .padStart(2, "0")}`}</h3>
+      <div className="button-div">
+        <button onClick={resetTimer}>リセット</button>
+        <button onClick={() => setCounter(counter + 1)}>カウントアップ</button>
+      </div>
     </div>
   );
 };
