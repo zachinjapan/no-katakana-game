@@ -18,6 +18,11 @@
 
 No katakana game
 
+A game for people who can speak Japanese.
+
+the goal is to explain the word without using any foreign loan words.
+
+
 </br>
 
 ## Table of Contents
