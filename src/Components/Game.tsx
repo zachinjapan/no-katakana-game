@@ -1,11 +1,12 @@
 import React, { useState } from "react";
-import "./Word.css";
+import "./Game.css";
 
-const Word = (props) => {
+const Word = (props: any) => {
   const [currentWord, setCurrentWord] = useState(props.words[0]);
 
   const currentWordHandler = () => {
-    const randomIndex = Math.floor(Math.random() * props.words.length);
+    const randomIndex: number = Math.floor(Math.random() * props.words.length);
+
     setCurrentWord(props.words[randomIndex]);
   };
 

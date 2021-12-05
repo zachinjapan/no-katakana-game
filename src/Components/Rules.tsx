@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../Components/Rules.css";
 
-const Rules = (props) => {
+const Rules = (props: any) => {
   const [language, setLanguage] = useState("Japanese");
   const [rulesVisiblity, setRulesVisiblity] = useState(false);
 

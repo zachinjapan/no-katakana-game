@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Timer from "./Timer";
 import "../Components/Rules.css";
 
-const TimerDiv = (props) => {
+const TimerDiv = (props: any) => {
   const [timerVisibility, setTimerVisibility] = useState(false);
 
   if (timerVisibility === true) {

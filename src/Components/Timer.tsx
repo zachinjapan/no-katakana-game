@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../Components/TimerDiv.css";
 
-const CountDownTimer = (props) => {
+const CountDownTimer = (props: any) => {
   const { minutes = 0, seconds = 60 } = props.minSecs;
   const [[mins, secs], setTime] = React.useState([minutes, seconds]);
 
@@ -27,7 +27,7 @@ const CountDownTimer = (props) => {
     return () => clearInterval(timerId);
   });
 
-  //button to reset the timer
+  //button to reset the timer and count
   const resetTimer = () => {
     reset();
     setCounter(0);

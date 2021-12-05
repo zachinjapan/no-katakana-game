@@ -1,10 +1,9 @@
-import React, { useState } from "react";
 import "./App.css";
 import Title from "./Components/Title";
 import Rules from "./Components/Rules";
-import Word from "./Components/Word";
+import Game from "./Components/Game";
 import TimerDiv from "./Components/TimerDiv";
-const Words = [
+const Words: object = [
   // a
   "アレルギー",
   "アバカド",
@@ -164,13 +163,13 @@ const Words = [
 ];
 
 function App() {
-  const minSecs = { minutes: 5, seconds: 0 };
+  const counterTime: object = { minutes: 5, seconds: 0 };
   return (
     <div className="App">
       <Title />
-      <Word words={Words} />
+      <Game words={Words} />
       <Rules />
-      <TimerDiv minSecs={minSecs} />
+      <TimerDiv minSecs={counterTime} />
     </div>
   );
 }
